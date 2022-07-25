@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.vue1{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(97, 38, 38, 0.5),#666565) ,url("../icons/entre.jpg");
+}
+
+.bout
+{
+    margin: 70px;
+}
+.bout a
+{
+ width: 150px;
+ text-decoration: none;
+ display: inline-block;  
+ margin: 0 10px; 
+ padding: 12px 0;
+ color: #fff;
+ border: .5px solid #fff;
+ position: relative;
+ z-index: 1;
+ transition: color 0.5s;
+}
+.bout a span
+{
+width:0;
+height: 100%;
+position: absolute;
+background-color:#fff;
+left: 0;
+top: 0;
+z-index: -1;
+transition: 0.5s;
+}
+.bout a:hover span
+{
+    width: 100%;
+}
+.bout a:hover 
+{
+    color:#000;
+}
+.text-dec{
+    text-align: center;
+    padding-top: 150px;
+    line-height: 5px;
+    color: #fff;
+    
+    }
+    .vue1 h2{
+        position: absolute;
+        top: 4%;
+        left: 7%;
+    }
+
+    .vue2 {
+        width: 100%;
+        padding: 70px 0;
+    }
+    .vue2 h2{
+        text-align: center;
+    }
+    .affiche{
+        width: 90%;
+        color: #818181;
+        background-color: #c5c5c5;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .affiche .para{
+        flex-basis: 40%;
+       text-align: left;
+
+    }
+    .affiche .image{
+        flex-basis: 40%;
+    }
+    .affiche1{
+        padding: 60px 0;
+        width: 90%;
+        color: #818181;
+        background-color: #c5c5c5;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .affiche1 .para{
+        flex-basis: 40%;
+       text-align: left;
+
+    }
+    .affiche1 .image{
+        flex-basis: 40%;
+    }
+    .affiche1 .image img{
+        width: 300px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    footer{
+        width: 100%;
+        background-image:linear-gradient(#d6d6d6,rgba(129, 9, 9, 0.5));
+        text-align: center;
+    }
+    footer ul{
+        list-style-type: none;
+        margin:15px 25px;
+    }
+    footer ul li{
+        margin:16px 0 0 12px ;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 10px;
+        width: 5px;
+        height: 5px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-instagram {
+        background: #5f0025;
+        color: white;
+      }
+      .fa-linkedin{
+       background:  #007bb5;
+       color: #fff;
+      }
+      .fa-phone {
+        background: #007bb5;
+        color: white;
+      }
+      .contacte{
+          position: relative;
+          display: flex;
+         
+          text-align: center;
+      }
+      ul li {
+          display: inline-block;
+      }
+      li img{
+          height: 30px;
+          width: 35px;
+      }
+      .propo{
+       text-align: right;
+      }
+   .propo li{
+      text-align: right;
+   }
+   .fa-envelope{
+     color: #000;
+   
+}
+

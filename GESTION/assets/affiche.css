@@ -1,0 +1,27 @@
+a.retoure{
+    text-decoration: none;
+    transition: 0.4s;
+    position: fixed;
+    top: 3%;
+    left: 4%;
+}
+a.retoure:hover{
+    letter-spacing: 8px;
+    color: rgb(255, 24, 24);
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+ul{
+    height: 150px;
+}
+ul li {
+    margin: 12px ;
+}
+ul li:hover{
+    word-spacing: 5px;
+}
+ul li .autre{
+    border-bottom: 1px solid;
+}
